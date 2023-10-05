@@ -37,7 +37,7 @@ jobs:
 
       - name: Update package.json for GitHub Packages
         run: |
-          jq '.name = "@almond-bongbong/react-simple-toasts"' package.json > package.temp.json
+          jq '.name = "@almond-bongbong/next-build-id-env"' package.json > package.temp.json
           mv package.temp.json package.json
 
       - name: Publish to GitHub Packages
