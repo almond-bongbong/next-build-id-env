@@ -1,9 +1,8 @@
 # `next-build-id-env`
 
-[![npm version](https://badge.fury.io/js/next-build-id-env.svg)](https://badge.fury.io/js/next-build-id-env)
-[![Build Status](https://travis-ci.org/andrewscwei/next-build-id-env.svg?branch=main)](https://travis-ci.org/andrewscwei/next-build-id-env)
-[![Coverage Status](https://coveralls.io/repos/github/andrewscwei/next-build-id-env/badge.svg?branch=main)](https://coveralls.io/github/andrewscwei/next-build-id-env?branch=master)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![NPM](https://img.shields.io/npm/v/next-build-id-env.svg)
+![License](https://img.shields.io/npm/l/next-build-id-env)
+![Size](https://img.shields.io/bundlephobia/min/next-build-id-env)
 
 A Next.js configuration enhancer to effortlessly inject your build ID into your environment variables.
 
