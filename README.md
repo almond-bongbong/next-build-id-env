@@ -25,6 +25,21 @@ const nextConfig = {};
 module.exports = withBuildId(nextConfig);
 ```
 
+```js
+// pages/index.js
+
+export default function Home() {
+  const buildId = process.env.NEXT_PUBLIC_BUILD_ID;
+
+  return (
+    <div>
+      <h1>My Next.js App</h1>
+      <p>Build ID: {buildId}</p>
+    </div>
+  );
+}
+```
+
 ## Options
 
 | Option | Type   | Default               | Description                                        |
