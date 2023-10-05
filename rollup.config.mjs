@@ -2,7 +2,6 @@ import commonjs from '@rollup/plugin-commonjs';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import typescript from 'rollup-plugin-typescript2';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
-import postcss from 'rollup-plugin-postcss';
 import babel from '@rollup/plugin-babel';
 import eslint from '@rollup/plugin-eslint';
 import terser from '@rollup/plugin-terser';
@@ -12,7 +11,7 @@ import packageJson from './package.json' assert { type: 'json' };
 const extensions = ['js', 'jsx', 'ts', 'tsx', 'mjs'];
 
 export default {
-  input: './src/index.tsx',
+  input: './src/index.ts',
   output: [
     {
       file: packageJson.main,
@@ -41,12 +40,6 @@ export default {
       extensions,
       include: ['src/**/*'],
     }),
-    postcss({
-      extract: false,
-      modules: true,
-      sourceMap: false,
-      use: ['sass'],
-    }),
-    terser(),
+    // terser(),
   ],
 };
