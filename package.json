@@ -47,8 +47,25 @@
     "lib"
   ],
   "keywords": [
-    "typescript",
-    "module"
+    "next",
+    "next.js",
+    "nextjs",
+    "build",
+    "id",
+    "build-id",
+    "buildid",
+    "env",
+    "environment",
+    "variable",
+    "variables",
+    "inject",
+    "injection",
+    "injected",
+    "enhanced",
+    "tracking",
+    "trace",
+    "tracing",
+    "traceability"
   ],
   "dependencies": {
     "webpack": "^5.88.2"
